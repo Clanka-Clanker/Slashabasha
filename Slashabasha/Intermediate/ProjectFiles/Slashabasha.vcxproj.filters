@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Slashabasha.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Slashabasha.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SlashabashaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Slashabasha">
+      <UniqueIdentifier>{42A48F88-EA63-3327-9B56-93CA77974DBC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Slashabasha\Slashabasha.Build.cs">
+      <Filter>Source\Slashabasha</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Slashabasha\Slashabasha.cpp">
+      <Filter>Source\Slashabasha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Slashabasha\Slashabasha.h">
+      <Filter>Source\Slashabasha</Filter>
+    </ClCompile>
+    <Filter Include="Source\Slashabasha\Player">
+      <UniqueIdentifier>{C2D1643C-CCC5-3825-9B8F-F84E59BD9094}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slashabasha\Player\PlayerCharacter.cpp">
+      <Filter>Source\Slashabasha\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Slashabasha\Player\PlayerCharacter.h">
+      <Filter>Source\Slashabasha\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\Slashabasha\Private">
+      <UniqueIdentifier>{75477DB0-62AF-39E9-8440-0857E091DE0C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slashabasha\Private\GM_Gamemode.cpp">
+      <Filter>Source\Slashabasha\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Slashabasha\Public">
+      <UniqueIdentifier>{8C8C4F89-A402-3571-95A2-8C75344C9ED0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Slashabasha\Public\GM_Gamemode.h">
+      <Filter>Source\Slashabasha\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

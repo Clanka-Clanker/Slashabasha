@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Slashabasha",
+			"Path": "..\\Source\\Slashabasha.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SlashabashaEditor",
+			"Path": "..\\Source\\SlashabashaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

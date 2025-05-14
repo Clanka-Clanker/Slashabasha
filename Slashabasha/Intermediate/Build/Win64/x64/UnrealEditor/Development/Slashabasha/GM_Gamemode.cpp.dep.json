@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\source\\slashabasha\\private\\gm_gamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\intermediate\\build\\win64\\x64\\slashabashaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slashabasha\\definitions.slashabasha.h",
+            "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\source\\slashabasha\\public\\gm_gamemode.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\intermediate\\build\\win64\\unrealeditor\\inc\\slashabasha\\uht\\gm_gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

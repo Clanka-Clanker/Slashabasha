@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\source\\slashabasha\\slashabasha.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\intermediate\\build\\win64\\x64\\slashabashaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slashabasha\\definitions.slashabasha.h",
+            "c:\\users\\asadu\\desktop\\gameiwanttobeinmyportfolio\\slashabasha\\slashabasha\\source\\slashabasha\\slashabasha.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
