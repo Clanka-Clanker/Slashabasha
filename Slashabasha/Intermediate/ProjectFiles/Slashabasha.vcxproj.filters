@@ -54,10 +54,16 @@
     <ClCompile Include="..\..\Source\Slashabasha\Private\GM_Gamemode.cpp">
       <Filter>Source\Slashabasha\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Slashabasha\Private\test.cpp">
+      <Filter>Source\Slashabasha\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Slashabasha\Public">
       <UniqueIdentifier>{8C8C4F89-A402-3571-95A2-8C75344C9ED0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Slashabasha\Public\GM_Gamemode.h">
+      <Filter>Source\Slashabasha\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Slashabasha\Public\test.h">
       <Filter>Source\Slashabasha\Public</Filter>
     </ClCompile>
   </ItemGroup>
