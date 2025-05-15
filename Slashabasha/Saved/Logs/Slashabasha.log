@@ -2937,3 +2937,47 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.15-01.00.54:275][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
 [2025.05.15-01.00.54:302][104]Display: HotReload took  3.8s.
 [2025.05.15-01.00.54:302][104]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged
+[2025.05.15-01.01.22:337][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.15-01.01.22:657][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.05.15-01.01.22:668][437]LogSavePackage: Moving output files for package: /Game/Level/MainMenuMap
+[2025.05.15-01.01.22:669][437]LogSavePackage: Moving '../../../../Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Saved/MainMenuMapE979DBD74EEEDDFC34E94B8DB87076CF.tmp' to '../../../../Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/Level/MainMenuMap.umap'
+[2025.05.15-01.01.22:696][437]LogFileHelpers: Saving map 'MainMenuMap' took 0.207
+[2025.05.15-01.01.22:729][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 392.597 ms (total: 1.20 sec)
+[2025.05.15-01.01.22:870][437]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.15-01.01.22:870][437]LogContentValidation: Enabled validators:
+[2025.05.15-01.01.22:870][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.15-01.01.22:870][437]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.15-01.01.22:870][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.15-01.01.22:870][437]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.15-01.01.22:870][437]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.15-01.01.22:870][437]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.15-01.01.22:870][437]AssetCheck: /Game/Level/MainMenuMap Validating asset
+[2025.05.15-01.01.25:351][684]Candidate modules for hot reload:
+[2025.05.15-01.01.25:351][684]  Slashabasha
+[2025.05.15-01.01.25:359][684]Launching UnrealBuildTool... [C:/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=Slashabasha,6243 SlashabashaEditor Win64 Development -Project="C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Slashabasha.uproject" "C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Slashabasha.uproject"  -IgnoreJunk]
+[2025.05.15-01.01.25:365][684]Warning: Starting HotReload took  0.1s.
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=Slashabasha,6243 SlashabashaEditor Win64 Development -Project="C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Slashabasha.uproject" "C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Slashabasha.uproject"  -IgnoreJunk
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Log file: C:\Users\AsadU\AppData\Local\UnrealBuildTool\Log.txt
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\AsadU\Desktop\GameIwanttobeinmyportfolio\Slashabasha).
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Building SlashabashaEditor...
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2025.05.15-01.01.28:889][957]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 3 action(s)
+[2025.05.15-01.01.28:889][957]CompilerResultsLog:   Storage capacity 40Gb
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: ---- Starting trace: 250514_210126 ----
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: ------ Building 3 action(s) started ------
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: [1/3] Link [x64] UnrealEditor-Slashabasha-6243.lib
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: [2/3] Link [x64] UnrealEditor-Slashabasha-6243.dll
+[2025.05.15-01.01.28:889][957]CompilerResultsLog:    Creating object C:\Users\AsadU\Desktop\GameIwanttobeinmyportfolio\Slashabasha\Slashabasha\Binaries\Win64\UnrealEditor-Slashabasha-6243.exp
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: [3/3] WriteMetadata SlashabashaEditor.target (UBA disabled)
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Trace file written to C:/Users/AsadU/AppData/Local/UnrealBuildTool/Log.uba with size 3.0kb
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 1.94 seconds
+[2025.05.15-01.01.28:889][957]CompilerResultsLog: Total execution time: 3.11 seconds
+[2025.05.15-01.01.28:889][957]LogMainFrame: MainFrame: Module compiling took 3.616 seconds
+[2025.05.15-01.01.28:955][957]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2025.05.15-01.01.29:122][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.15-01.01.29:147][957]Display: HotReload took  3.9s.
+[2025.05.15-01.01.29:147][957]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged
