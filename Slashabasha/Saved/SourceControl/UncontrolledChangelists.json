@@ -16,7 +16,6 @@
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalObjects__/Level/MainLevel/6/M2/ZGOURIF34PQRWX0949NUPA.uasset",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalObjects__/Level/MainLevel/2/XA/ZEPHD6RLDZZBABYIN1P2M5.uasset",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalActors__/Level/MainLevel/4/IV/2GBMEDV168MEN7EPJUT02E.uasset",
-				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalActors__/Level/MainLevel/B/Q4/0JEGKPI5H6KWYJBRDDXO0R.uasset",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalActors__/Level/MainLevel/C/1D/YQENG6EFKQHJAPUV12LMU6.uasset",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalActors__/Level/MainLevel/2/E2/WSFH8QX34R7ED1YOW3A48P.uasset",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalActors__/Level/MainLevel/5/H6/OHZBDS1M0HY3TCOCY3N3DL.uasset",
@@ -191,7 +190,24 @@
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/Level/MainMenuMap.umap",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/UI/MenuThang.uasset",
 				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/UI/UI.uasset",
-				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/UI/Usainbolt.uasset"
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/UI/Usainbolt.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Mat/Alpha_Joints_MAT.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Mat/Alpha_Body_MAT.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Player_Mesh_YBot_Arms.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Player_Mesh_YBot_Arms_Anim_Armature_Armature_mixamo_com_Layer0.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Player_Mesh_YBot_Arms_Anim_Armature_Armature_mixamo_com_Layer0_001.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Player_Mesh_YBot_Arms_PhysicsAsset.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Player_Mesh_YBot_Arms_Skeleton.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Sword/sword_runic_turbo_squid.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Animations/Standing_Melee_Attack_Horizontal.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Sword/sword_AO_texture.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Sword/sword_color_texture.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Sword/sword_emission_texture.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Sword/sword_normal_texture.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Sword/sword_roughness_texture.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Animations/Attack/AttackNotify.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/PlayAnimsAndStuff/Animations/Attack/EndAttack.uasset",
+				"C:/Users/AsadU/Desktop/GameIwanttobeinmyportfolio/Slashabasha/Slashabasha/Content/__ExternalActors__/Level/MainLevel/B/Q4/0JEGKPI5H6KWYJBRDDXO0R.uasset"
 			]
 		}
 	]

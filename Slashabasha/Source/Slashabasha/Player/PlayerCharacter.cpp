@@ -3,6 +3,7 @@
 
 #include "Slashabasha/Player/PlayerCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -11,8 +12,11 @@ APlayerCharacter::APlayerCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Player Camera"));
-	Camera->SetupAttachment(RootComponent);
+	Camera->SetupAttachment(GetMesh(), FName("CameraSocket"));
 	Camera->bUsePawnControlRotation = true;
+
+	SwordMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Sword Mesh"));
+	SwordMesh->SetupAttachment(GetMesh(), FName("SwordSocket"));
 }
 
 // Called when the game starts or when spawned
@@ -40,6 +44,10 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAxis("TurnCamera", this, &APlayerCharacter::Turn);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::LookUp);
+
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &APlayerCharacter::StartAttack);
+
+
 }
 
 void APlayerCharacter::MoveForward(float InputValue)
@@ -59,4 +67,42 @@ void APlayerCharacter::Turn(float InputValue)
 void APlayerCharacter::LookUp(float InputValue)
 {
 	AddControllerPitchInput(InputValue);
+}
+
+void APlayerCharacter::StartAttack()
+{
+	// Call attack Animation
+	if (AttackAnimation && !bIsAttacking)
+	{
+		GetMesh()->PlayAnimation(AttackAnimation, false);
+		bIsAttacking = true;
+	}
+}
+
+void APlayerCharacter::LineTrace()
+{
+	// Get Socket location
+	FVector StartLocation = SwordMesh->GetSocketLocation(FName("Start"));
+	FVector EndLocation = SwordMesh->GetSocketLocation(FName("End"));
+	 
+	// setup line trace
+	FHitResult HitResult;
+	FCollisionQueryParams TraceParams;
+	TraceParams.AddIgnoredActor(this); // Ignore self
+	
+	//line trace
+	GetWorld()->LineTraceSingleByChannel(HitResult, StartLocation, EndLocation, ECC_Visibility, TraceParams);
+
+	// Draw debug line
+
+	DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Purple, false, 1.0f, 0, 1.0f);
+	
+	// If hit something
+	if (HitResult.bBlockingHit)
+	{
+		AActor* ActorHit = HitResult.GetActor();
+		ActorHit->Destroy(); // Destroy the actor hit
+	}
+	
+	
 }

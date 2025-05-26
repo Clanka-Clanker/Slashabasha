@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlashabashaModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dd163dd3ab74256e78ce797f07e5e41176f32c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cdcc6ce6a72724d7866dd72a8672394004fad26")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlashabashaModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlashabashaModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

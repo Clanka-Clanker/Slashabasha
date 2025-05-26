@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -31,10 +31,31 @@ protected:
 	UPROPERTY(EditAnywhere)
 	class UCameraComponent* Camera;
 
+	UPROPERTY(VisibleAnywhere)
+	class UStaticMeshComponent* SwordMesh;
+
+	UPROPERTY(EditAnywhere)
+	class UAnimSequence* AttackAnimation;
+
+
 	void MoveForward(float InputValue);
-    void MoveRight(float InputValue);
+	void MoveRight(float InputValue);
 
 	void Turn(float InputValue);
 	void LookUp(float InputValue);
-	
+
+
+	// Attack
+	int Damage;
+
+	void StartAttack();
+
+public:
+
+	UFUNCTION(BlueprintCallable)
+	void LineTrace();
+
+	UPROPERTY(BlueprintReadWrite)
+	bool bIsAttacking;
+
 };
